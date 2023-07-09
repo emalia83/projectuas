@@ -1,0 +1,140 @@
+/* HOME */
+.header-home {
+    height: 75px;
+    background-color: rgb(23, 17, 23);
+}
+
+.header-home h1 {
+    color: #ffffff;
+    font-size: 25px;
+    font-style: initial;
+    font-family: Courier, monospace;
+    padding-top: 2%;
+}
+.title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    position: relative;
+    display: inline-block;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+  
+
+  
+.gradasi-linear {
+    background: linear-gradient(to right, #FF829A, #E27DA1, #846C98, #356E9A);
+  }
+
+.gradasi-background {
+    background: linear-gradient(to bottom, #FF829A, #E27DA1, #846C98, #356E9A);
+  }
+
+.left-home {
+    float: left;
+    background-color: #e6ac60;
+    height: 85.5vh;
+    width: 150px;
+    text-align: center;
+}
+
+.left-home h1 {
+    margin-top: 2%;
+    cursor: pointer;
+}
+
+.right-home ul {
+    display: inline-block;
+    margin-left: 5%;
+    margin-right: 1%;
+}
+
+.right-home ul li {
+    margin-left: 1%;
+}
+
+
+.data-home {
+    overflow-x: auto;
+    margin-left: 1%;
+    margin-right: 1%;
+    width: 86.5%;
+    height: 430px;
+}
+
+.data-home::-webkit-scrollbar {
+    width: 0;
+    height: 6px;
+}
+
+.data-home::-webkit-scrollbar-thumb {
+    background-color: rgb(213, 157, 221);
+    border-radius: 10px;
+}
+
+.data {
+    height: min-content;
+    width: max-content;
+    display: flex;
+}
+
+.data-home .data ul {
+    width: max-content;
+    padding: 2%;
+    height: 280px;
+}
+
+
+/* INVENTORY */
+#isi-kiri {
+    float: left;
+    margin-left: 1%;
+    overflow-y: auto;
+    height: 200px;
+    margin-top: 1%;
+    height: 83vh;
+}
+
+.isi-kanan {
+    float: left;
+}
+.formadd input[type = text] {
+    width: 150px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid salmon;
+    padding: 5px;
+    letter-spacing: 1px;
+}
+
+.contoh {
+    float: left;
+    padding-left: 25%;
+    padding-top: 15%;
+    padding-left: 10%;
+}
+
+.form-inventory input[type = text] {
+    width: 150px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid salmon;
+    padding: 5px;
+    letter-spacing: 1px;
+    margin-Left: "5%"
+    
+}
+
+#isi-kiri::-webkit-scrollbar {
+    width: 6px;
+    height: 0;
+}
+
+#isi-kiri::-webkit-scrollbar-thumb {
+    background-color: rgb(213, 157, 221);
+    border-radius: 10px;
+}
+
